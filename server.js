@@ -22,7 +22,7 @@ app.use('/graphql', graphqlHTTP({
     graphiql: true
 }));
 
-app.listen(4000);
+app.listen(3002);
 
 // graphql(schema, '{hello}', root).then((response) => {
 //     console.log(response);
